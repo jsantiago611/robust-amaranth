@@ -4,6 +4,6 @@
 @include media-breakpoint-up(sm) {
 	.page__header,
 	.page__copy {
-		font-size: 1.125em;
+		font-size: calc( 40px + (85 - 40) * ( 100vw - 600px ) / (1440 - 600) );
 	}
 }
