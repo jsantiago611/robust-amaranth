@@ -5,6 +5,14 @@ html {
 	font-size: 112.5%;
 }
 
+  @font-face {
+   font-family: 'FavoritReg';
+   src: url('../fonts/ABCFavoritProRegularTrial.woff') format('woff');
+   font-weight: 400;
+   font-style: normal;
+   font-display: swap;
+}
+
 body {
 	background-color: $color-body-bg;
 	color: $color-body-text;
