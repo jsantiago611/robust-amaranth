@@ -93,7 +93,7 @@ h1 {
 }
 
 h2 {
-	font-size: 2.22222em;
+	font-size: calc( 30px + (66 - 30) * ( 100vw - 400px ) / (2500 - 400) );
 }
 
 h3 {
